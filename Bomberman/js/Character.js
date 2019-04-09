@@ -1,6 +1,6 @@
 Character.count = 0;
 function Character(inheritance){
-	//zwiększam licznik postaci
+	//zwiększam licznik postaci o 1
 	Character.count++;
 	//
 	this.id = 'char_'+Character.count;
